@@ -1,0 +1,150 @@
+.sticky {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0px;
+  }
+
+/* ANNONCE SCROLL DOWN */
+#hundredvhContainer {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#titleIntro {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    color: rgb(48, 46, 46);
+    text-align: center;
+}
+
+/* GoPro STICKY */
+#goPro{
+    z-index: -1;
+    height: 600vh;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}  
+
+#productWrapper {
+    padding-top: 200px;
+    height: 100vh;
+}
+
+#goProPic {
+    width: 460px;
+}
+
+
+/* TITRE CAMERA TOUGH */
+.scrollSection {
+    position: relative;
+    height: 200vh;
+}
+
+#titleAccroche {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 56px;
+    color: rgb(48, 46, 46);
+    margin: 0px;
+    padding-top: 5px;
+    width:100%;
+    justify-content: center;
+    text-align: center;
+}
+
+/* DIRT ONE  */
+#dirtOneImg{
+    padding-top: 150px;
+    width: 600px;
+    padding-left:100px;
+}
+
+/* DIRT TWO  */
+#dirtTwoImg{
+    padding-top: 100px;
+    padding-left: 300px;
+    margin-top: -500px;
+    width: 500px;
+}
+
+/* WATER ONE  */
+#waterOneImg{
+    padding-top: 200px;
+    padding-left: 300px;
+    margin-top: -800px;
+    width: 500px;
+}
+
+/* WATER TWO */
+#waterTwoImg{
+    padding-top: 180px;
+    padding-right: 600px;
+    margin-top: -800px;
+    width: 500px;
+    transform: rotateY(190deg);
+}
+
+/* WATER THREE */
+#waterThreeImg {
+    transform: rotate(90deg);
+    padding-top: 180px;
+    padding-left:200px;
+    padding-bottom: 500px;
+    margin-top: -400px;
+    width: 500px;
+    z-index: -3;
+}
+
+/* SLEEVE */
+
+#titleDeux {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 56px;
+    color: rgb(48, 46, 46);
+    margin: 0px;
+    padding-top: 5px;
+    width:100%;
+    justify-content: center;
+    text-align: center;
+}
+
+#sleeveImg {
+    padding-top: 160px;
+    padding-left: 120px;
+    width: 1150px;
+}
+
+/* HANDLER */
+#handlerImg {
+    margin-top: 950px;
+    padding-left: 420px;
+    width: 450px;
+    z-index: -3;
+}
+
+/* ORANGE SLEEVE */
+#titleTrois {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 56px;
+    color: rgb(48, 46, 46);
+    margin: 0px;
+    padding-top: 80px;
+    width:100%;
+    justify-content: center;
+    text-align: center;
+}
+
+#orangeImg {
+    margin-top: 600px;
+    padding-left: 420px;
+    width: 1000px;
+    z-index: -3;
+}
